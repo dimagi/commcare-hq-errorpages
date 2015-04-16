@@ -9,3 +9,12 @@ There are three css files
   * In the main Commcare repo in apps/style/static/public/less `/opt/lessc/bin/lessc public-style.less > style.css`
 * style/additional-style.css: Anything specific to this page, e.g. change link color on blue background
 
+## Testing locally
+run nginx w/ a site:
+server {
+    server_name localhost;
+    location / {
+        root <path to>/commcare-hq-errorpages/pages;
+    }
+}
+
