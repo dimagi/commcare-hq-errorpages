@@ -1,8 +1,8 @@
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" media="all" href="errors/error_style/style.css">
-        <link type="text/css" rel="stylesheet" media="all" href="errors/error_style/bootstrap_style.css">
-        <link type="text/css" rel="stylesheet" media="all" href="errors/error_style/additional_style.css">
+        <link type="text/css" rel="stylesheet" media="all" href="error_style/style.css">
+        <link type="text/css" rel="stylesheet" media="all" href="error_style/bootstrap_style.css">
+        <link type="text/css" rel="stylesheet" media="all" href="error_style/additional_style.css">
     </head>
     <body>
         <section class="section section-primary section-lead">
@@ -25,10 +25,12 @@
         </section>
         <footer class="footer">
             <div class="container">
-                <p class="text-copyright text-center">
-                    Copyright &copy; 2016 Dimagi, Inc.
-                </p>
+                <p class="text-copyright text-center"></p>
             </div>
         </footer>
+        <script>
+            var copyrightEl = document.getElementsByClassName('text-copyright')[0];
+            copyrightEl.innerHTML = 'Copyright &copy; ' + (new Date()).getFullYear() + ' Dimagi, Inc.';
+        </script>
     </body>
 </html>
