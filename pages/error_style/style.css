@@ -394,43 +394,6 @@ select[multiple].form-group-xl .form-control {
   top: 50%;
   left: 50%;
 }
-@media (min-width: 768px) {
-  .flower-home {
-    width: 290px;
-    height: 290px;
-    margin-top: -145px;
-    margin-left: -145px;
-    background-image: url('../images/flower-home/flower-home-sm.png');
-  }
-}
-@media (min-width: 992px) {
-  .flower-home {
-    width: 380px;
-    height: 380px;
-    margin-top: -190px;
-    margin-left: -190px;
-    background-image: url('../images/flower-home/flower-home-md.png');
-  }
-}
-@media (min-width: 1200px) {
-  .flower-home {
-    width: 465px;
-    height: 465px;
-    margin-top: -232.5px;
-    margin-left: -232.5px;
-    background-image: url('../images/flower-home/flower-home-lg.png');
-  }
-}
-@media (max-width: 767px) {
-  .flower-home {
-    width: 280px;
-    height: 280px;
-    margin-top: -140px;
-    margin-left: -140px;
-    top: 330px;
-    background-image: url('../images/flower-home/flower-home-xs.png');
-  }
-}
 .flower-icon {
   position: absolute;
   display: block;
